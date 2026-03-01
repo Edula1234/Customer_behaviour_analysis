@@ -128,5 +128,5 @@ README.md
 
 Pranith Reddy
 Data Analyst
-LinkedIn: (Add your LinkedIn link)
-Email: (Add your email)
+LinkedIn: www.linkedin.com/in/pranith-reddy-edula
+Email: edulapranithreddy@gmail.com

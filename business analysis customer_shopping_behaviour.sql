@@ -54,6 +54,7 @@ from customer
 select customer_segment, count(*) as "Number of Customers"
 from customer_type
 group by customer_segment;
+
 --Q8. What are the top 3 most purchased products within each category?
 with item_counts as (
 select category, item_purchased,
@@ -66,6 +67,7 @@ group by category, item_purchased
 select item_rank, category, item_purchased, total_orders
 from item_counts
 where item_rank <= 3;
+
 --Q9. Are customers who are repeat buyers (more than 5 previous purchases) also likely to subscribe?
 select subscription_status, count(customer_id) as repeat_buyers
 from customer
